@@ -3,4 +3,5 @@ An easy-to-use public transportation program to notify users when their stops ar
 
 # Names
 Logan Brown - 300013066
+
 Michael Barker - 300018443
