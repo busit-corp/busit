@@ -6,3 +6,4 @@ An easy-to-use public transportation program to notify users when their stops ar
  * Michael Barker - 300018443
  * Mark Yang - 300026843
  * Ismail Ali - 300008883
+ * August Gosselin - 
