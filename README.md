@@ -1,5 +1,5 @@
 # busit
-An easy-to-use public transportation program to notify users when their stops are approaching and when to switch platforms.
+An easy-to-use public transportation application to notify users of approaching buses and their ETAs
 
 # Names
  * Logan Brown - 300013066
