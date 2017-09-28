@@ -1,4 +1,4 @@
-# busit
+# BusIt
 An easy-to-use public transportation application to notify users of approaching buses and their ETAs
 
 # Names
