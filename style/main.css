@@ -26,3 +26,45 @@ img {
 .right {
 	text-align: right;
 }
+
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFBEF;
+	padding-right: 1px;
+}
+
+li.navbar.right {
+	float: right;
+}
+
+li.navbar.right a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding-top: 21px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+li.navbar.right a:hover {
+	margin: -1px;
+	border-radius: 10px;
+	border: 1px solid #FF444D;
+	color: #7F2226;
+	transition: color 0.5s ease;
+}
+
+li.navbar.image {
+	float: left;
+	padding-right: 40px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
