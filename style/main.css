@@ -19,9 +19,9 @@ p.white {
 	color: #F5F5F5;
 }
 
-img {
+/*img {
 	margin: 0 0 10px 10px;
-}
+}*/
 
 .centre {
 	text-align: center;
@@ -84,10 +84,16 @@ footer {
 }
 
 .container {
-  display: flex;
-  text-align: center;
+	display: flex;
+	text-align: center;
 }
 
 .container > div {
-  flex: 1;
+	flex: 1;
+}
+
+.crop {
+	margin-left: 1%;
+	width: 98%;
+	overflow: hidden;
 }
