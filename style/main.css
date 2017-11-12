@@ -1,26 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body {
-	background-color: powderblue;
-}
-
-h1 {
+* {
 	color: red;
 	font-family: 'Roboto', sans-serif;
 }
 
 p {
-	color: red;
-	font-family: 'Roboto', sans-serif;
 	font-weight: normal
 }
 
 p.white {
 	color: #F5F5F5;
-}
-
-img {
-	margin: 0 0 10px 10px;
 }
 
 .centre {
@@ -76,7 +66,7 @@ li.navbar.image {
 footer {
 	color: #F5F5F5;
 	background-color: #333;
-	width: 100%;
+	width: 99%;
 	bottom: 0;
 	position: fixed;
 	padding-top: 10px;
@@ -90,4 +80,31 @@ footer {
 
 .container > div {
   flex: 1;
+}
+
+.main-title {
+	color: #550000;
+	font-size: 8em;
+	margin-top: 0%;
+	margin-bottom: 5%;
+}
+
+.main-subtitle {
+	color: #660000;
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+
+.subheader {
+	color: #660000;
+	font-size: 1.5em;
+}
+
+.justify {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.footer-text {
+	margin: 0 5% 0 5%;
 }

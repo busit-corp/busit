@@ -6,9 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="style/main.css">
 	</head>
 
-	<body background="img/background.jpg">
+	<!-- BEGIN HEADER -->
 
-		<!-- BEGIN HEADER -->
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
 
 		<ul class="navbar">
 			<li class="navbar image"><a href="index.html"><img src="img/logo.png" width=90 height=43/></a></li>
@@ -21,20 +23,20 @@
 
 		<!--  END HEADER  -->
 
-		<CENTER><h1>BusIt</h1> </CENTER>
-		<CENTER><p>A new and better way to take the bus<p> </CENTER>
-		
-		
-				<h2>Description</h2>
-				<img src="img/bus_users.png" alt="Content bus users" width="200" height="200" align="left" style="float:left"; margin-right:5px margin-bottom:5px;/>
-				<!-- white background for paragraph? -->
-				<p style="background-color:white">BusIt is an app for bus users within the Ottawa region creating a fresh and worry-free experience for them.</p>
-				<!-- main app screen will be animated (maybe) -->
-				<div style="margin-left:80%;">
-    				<img src="img/phone_screen.png" alt="App preview" width="300" height="400"border="2px">
-					<a align="right" target="_blank" href="https://play.google.com/store/apps">Get the BusIt app here for FREE</a>	
-				</div>
-				
+		<img id="header-img" src="img/header.jpg" alt="Background" style="width: 100%;">
+
+		<h1 class="centre main-title">BusIt</h1>
+		<p class="centre main-subtitle">A new and better way to take the bus
+
+		<h2 class="subheader">Description</h2>
+		<img src="img/bus_users.png" alt="Content bus users" width="200" height="200" align="left" style="float:left" ; margin-right:5px margin-bottom:5px;/>
+		<!-- white background for paragraph? -->
+		<p style="background-color:white">BusIt is an app for bus users within the Ottawa region creating a fresh and worry-free experience for them.</p>
+		<!-- main app screen will be animated (maybe) -->
+		<div align="right">
+			<img src="img/phone_screen.png" alt="App preview" width="300" border="2px" style="margin-bottom: 50px">
+			<a target="_blank" href="https://play.google.com/store/apps">Get the BusIt app here for FREE</a>
+		</div>
 
 		<!-- BEGIN FOOTER -->
 
@@ -44,14 +46,14 @@
 		<footer>
 			<div class="container">
 				<div>
-					<p class="white">
+					<p class="white footer-text">
 						123 Busit Drive
 						<br /> Ottawa, Ontario
 						<br /> A1A 1A1
 					</p>
 				</div>
 				<div>
-					<p class="white">
+					<p class="white footer-text">
 						Contact us!
 						<br />Email: contact@busit.org
 						<br />Facebook: BusIt
@@ -59,10 +61,8 @@
 					</p>
 				</div>
 				<div>
-					<p class="white">
-						123 Busit Drive
-						<br /> Ottawa, Ontario
-						<br /> A1A 1A1
+					<p class="white justify footer-text">
+						BusIt is a project with the intention of allowing users to travel more easily between locations in the city of Ottawa by more accurately tracking bus locations and routes through crowd-sourcing bus positions and traffic information.
 					</p>
 				</div>
 			</div>
