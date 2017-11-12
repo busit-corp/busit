@@ -6,11 +6,27 @@
 }
 
 p {
-	font-weight: normal
+	color: #880000;
+	font-weight: normal;
 }
 
 p.white {
 	color: #F5F5F5;
+}
+
+a:link {
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: all ease-in-out 0.2s;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #801515;
+}
+
+a:hover {
+	border-color: black;
 }
 
 .centre {
