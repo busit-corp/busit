@@ -14,19 +14,19 @@ p.white {
 	color: #F5F5F5;
 }
 
-a:link {
+a.nice-link:link {
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
 	transition: all ease-in-out 0.2s;
 }
 
-a:visited {
+a.nice-link:visited {
 	text-decoration: none;
 	color: #801515;
 }
 
-a:hover {
-	border-color: black;
+a.nice-link:hover {
+	border-color: #CC0000;
 }
 
 .centre {
@@ -37,17 +37,23 @@ a:hover {
 	text-align: right;
 }
 
+.navbar {
+	padding: 1px;
+}
+
 ul.navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #FFFBEF;
+	/*background-color: #FFAAAA;*/
 	padding-right: 1px;
 }
 
 li.navbar.right {
 	float: right;
+	color: black;
 }
 
 li.navbar.right a {
@@ -56,19 +62,22 @@ li.navbar.right a {
 	display: block;
 	color: black;
 	text-align: center;
-	padding-top: 21px;
-	padding-right: 15px;
+	border: 1px solid transparent;
+	/*border-radius: 10px;*/
+	padding-top: 20px;
+	padding-right: 20px;
 	padding-bottom: 20px;
-	padding-left: 15px;
+	padding-left: 20px;
 	text-decoration: none;
 }
 
 li.navbar.right a:hover {
-	margin: -1px;
-	border-radius: 10px;
+	border-radius: 20px;
 	border: 1px solid #FF444D;
-	color: #7F2226;
-	transition: color 0.5s ease;
+	/*color: #801515;*/
+	color: #801515;
+	border-color: #FF444D;
+	transition: all 0.5s;
 }
 
 li.navbar.image {
@@ -101,19 +110,24 @@ footer {
 .main-title {
 	color: #550000;
 	font-size: 8em;
-	margin-top: 0%;
-	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .main-subtitle {
 	color: #660000;
 	font-size: 2em;
-	margin-bottom: 5%;
+	margin-bottom: 7%;
 }
 
 .subheader {
 	color: #660000;
 	font-size: 1.5em;
+}
+
+.subsubheader {
+	color: #660000;
+	font-size: 1em;
 }
 
 .justify {
@@ -123,4 +137,8 @@ footer {
 
 .footer-text {
 	margin: 0 5% 0 5%;
+}
+
+.circle {
+	border-radius: 50%;
 }
